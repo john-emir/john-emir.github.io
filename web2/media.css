@@ -1,0 +1,178 @@
+/*1124===============*/
+@media (max-width: 1124px)
+/*картінка но на цій ширині її нема*/
+{   
+    body{
+        width: 1008px;
+    }
+    .wraper .becraunt .becraunt-contend .intro .img img {
+        display: none;
+        
+    }
+/*текст кнопкі і т.д*/
+    .wraper .becraunt .becraunt-contend .intro .text {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 13%;
+    
+
+    }
+/*  фонова  картінка */
+    .wraper .becraunt{
+        width: 100%;
+       
+    }
+/*тіпа хом ебаут і тд */
+    .wraper .becraunt .becraunt-contend .header .meny .menyHover{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+        font-size: 17px;
+}
+    
+/*луіс текст h1*/
+    .wraper .becraunt .becraunt-contend .intro .text h1 {
+    margin: 0;
+    color: #4d4d4d;
+        font-size: 70px;
+}
+/*p під h1*/
+    .wraper .becraunt .becraunt-contend .intro .text p {
+    font-size: 14px;
+    opacity: 0.5;
+        font-size: 20px;
+}
+/*кнопкі*/
+    .wraper .becraunt .becraunt-contend .intro .text .btm {
+    text-decoration: none;
+    border: 1px solid #4d4d4d;
+    color: #4d4d4d;
+    padding: 13px 27px 13px 27px;
+    font-size: 15px;
+    height: 10%;
+        transition: 0.4s;
+       }
+/*весь блок*/
+    wraper .becraunt .becraunt-contend .intro {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 16%;
+    }
+    
+    /*конво блок*/
+    .conteiner .konwo{
+        display: block;
+        
+    }
+/*текст блок*/
+    .conteiner .konwo .konwoText{
+        width: 700px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 1px 1px 50px 1px
+    }
+    .conteiner .konwo .konwoText .btm2{
+        font-size: 20px;
+    }
+    .conteiner .konwo .konwoText .konwoTaitel:after{
+        left: 312px;
+        height: 5px;
+        width: 75px;
+    }
+    .conteiner .konwo .konwoText p{
+        font-size: 20px;
+    }
+/*текст*/
+    .conteiner .konwo .konwoText .konwoTaitel{
+    font-size: 55px;
+    }
+/*картінка*/
+    .conteiner .konwo .konwoImg{
+        display: flex;
+        margin: 0 auto;
+        width: 711px;
+    }
+}
+@media(max-width:420px){
+    .conteiner .serviceBlog .servicesImeges .imgBlogTop{
+  
+    }
+    .conteiner .serviceBlog{
+        width: 601px;
+        margin: 0 auto;
+    }
+    .conteiner .skilBlog{
+        margin-bottom: 10px;
+        width: 740px;
+        margin: 0 auto;
+    }
+    .conteiner .portfolioBlog .portfolio{
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: 2fr 2fr .3fr;
+    }
+    .conteiner .staticBlog .element .inner__work{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 78px;
+    }
+    .conteiner .staticBlog .element .inner__smail{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 78px; 
+    }
+    .conteiner .staticBlog .element .inner__document{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 78px;
+    }
+    .conteiner .staticBlog .element .inner__coffe{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 78px;
+    }
+    .conteiner .staticBlog .element{
+        display: block;
+    }
+    .conteiner .staticBlog{
+        margin-top: 11px;
+        height: 1588px;
+    }
+    .conteiner .staticBlog .element img{
+        width: 157px;
+    }
+    .conteiner .staticBlog .element .nunber{
+        font-size: 58px;
+    }
+    .conteiner .staticBlog .element p{
+        font-size: 37px;
+    }
+    .conteiner .portfolioBlog .portfolio img{
+        width: 509px;
+    }
+    .conteiner .portfolioBlog .portfolio{
+        display: grid;
+        grid-template-columns: 1fr
+    }
+    .conteiner .bacrauntPortfolio{
+        height: 3548px;
+    }
+    .conteiner .formBlog .possihen .form .emeil{
+        width: 99%;
+        height: 53px;
+        margin: 2px 2px 12px 0px;
+    }
+    .conteiner .formBlog .possihen .form .naem{
+        width: 99%;
+    height: 53px;
+    margin: 2px 2px 12px 0px;
+    }
+
+    
+}
+
+
+
+
