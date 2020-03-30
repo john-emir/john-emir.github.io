@@ -1,0 +1,184 @@
+@media(max-width:1024px) {
+    .posihen .banner {
+        text-align: center;
+        display: none;
+
+    }
+
+    .top {
+        width: 1024px;
+    }
+
+    .conteinerSlaider {
+        width: 1024px;
+    }
+
+    .posihen .conteinerSop {
+        margin-left: 126px;
+        margin-bottom: 105px;
+    }
+
+    .type {
+        margin-left: 139px;
+        width: 259px;
+    }
+    .posihen .conteinerSop .BlogPsroduct .neam{
+        margin: 0;
+    }
+}
+
+
+
+
+
+@media(min-width:1440px) {
+    .top{
+     width: unset;
+    }
+    .conteinerSlaider{
+          width: unset;
+    }
+    .contact{
+        width: unset;
+    }
+    .futeer{
+            width: unset;
+    display: flex;
+    justify-content: center;
+    }
+    
+    
+}
+
+
+    @media(max-width:425px){
+        .top .posihenBlog .meny-icons-wraper{
+            display: flex;
+        }
+    }
+ @media(max-width:425px){
+        .logobloc .heder .menu{
+            display: none;
+        }
+    }
+    
+    
+    
+@media(max-width:321px){
+    input {
+          width: 211px;
+    height: 31px;
+    border: 2px solid;
+    }
+    .logobloc .cabinet .img{
+            margin-left: 15px;
+    width: 51px;
+    }
+    .logobloc .conteiner h1{
+            width: 237px;
+    display: block;
+    font-size: 44px;
+    }
+    
+ 
+    .logobloc .conteiner .menu{
+        display: none;
+}
+    }
+.logobloc .conteiner {
+  
+    display: flex;
+    justify-content: space-between;
+   
+}
+}
+
+
+
+@media(min-width:1440px){
+   
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:2560px){
+    .conteinerSlaider .slider .blog .sliderText .text{
+            font-size: 62px;
+    }
+    .logobloc .conteiner{
+            width: 1326px;
+    }
+    .logobloc .conteiner h1 {
+    width: 215px;
+    display: block;
+    font-size: 43px;
+}
+    .top .posihenBlog .meny-icons-wraper{
+        display: none;
+    }
+    .top .login{
+        margin-right: 62px;
+            font-size: 24px;
+    }
+    .logobloc .heder{
+    width: 94%;
+    }
+    .logobloc .conteiner .menu {
+    font-size: 30px;
+    margin-left: 82px;
+            margin-top: 9px;
+    align-items: center;
+    display: flex;
+    font-family: "Open Sans";
+    width: 100%;
+}
+    input {
+    width: 229px;
+    height: 31px;
+    border: 2px solid;
+
+    }
+    .logobloc .cabinet .img{
+        
+    }
+    .logobloc .cabinet .img {
+    margin-left: 10px;
+    width: 50px;
+}
+.top .login {
+    font-family: "Open Sans";
+    width: 1284px;
+    display: flex;
+    font-size: 19px;
+    justify-content: flex-end;
+}
+.posihen .banner input {
+    top: 635px;
+    width: 184px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+    .posihen .banner .btmBotom {
+    font-family: "Open Sans";
+    position: absolute;
+    color: #fff;
+    margin-left: 56px;
+    top: 703px;
+    border: 1px solid #7eb123;
+    background-color: #7eb123;
+    padding: 10px;
+}
+    .contact .phon {
+    display: flex;
+    margin-left: 273px;
+}
+
+}
